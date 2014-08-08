@@ -1,0 +1,25 @@
+allow from all
+
+RewriteEngine on
+RewriteRule ^$                  index.php?page=home
+RewriteRule ^accueil$           index.php?page=home
+RewriteRule ^settings$          index.php?page=settings
+
+RewriteRule ^series$            index.php?page=serieList
+RewriteRule ^films$             index.php?page=movieList
+RewriteRule ^request$           index.php?page=request
+RewriteRule ^requestList$       index.php?page=requestList
+
+RewriteRule ^film/([0-9]+)$     index.php?page=movieCard&num=$1
+RewriteRule ^film/random$       index.php?page=movieCard&num=random
+RewriteRule ^serie/([0-9]+)$    index.php?page=serieCard&num=$1
+RewriteRule ^request/([0-9]+)$	index.php?page=request&num=$1
+
+RewriteRule ^login$             index.php?userAction=login
+RewriteRule ^logout$            index.php?userAction=logout
+RewriteRule ^saveSettings$      index.php?userAction=saveSettings
+
+RewriteRule ^admin/newMovie$			index.php?panel=admin&page=newMovie
+RewriteRule ^admin/newMovie/([0-9]+)$	index.php?panel=admin&page=newMovie&num=$1
+RewriteRule ^admin/addMovie/([0-9]+)$	index.php?panel=admin&page=addMovie&num=$1
+RewriteRule ^admin/completeRq/([0-9]+)$	index.php?panel=admin&page=completeRequest&num=$1

@@ -1,0 +1,23 @@
+body
+{
+    width : 1400px;
+    margin: auto;
+}
+
+.page, .column
+{
+    display: inline-block;
+    vertical-align: top;
+    
+    border : solid 1px black;
+}
+
+.page
+{
+    width : 900px;
+}
+
+.column
+{
+    width : 245px;
+}

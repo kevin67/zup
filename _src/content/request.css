@@ -1,0 +1,58 @@
+/* Toutes les cases */
+th, td
+{
+	border : solid black 1px;
+}
+
+/* En tete */
+.requestList th
+{
+	background-color : silver;
+}
+
+/* Contenu tableau */
+.requestList td
+{
+
+}
+
+/* Espace entre les tableaux*/
+#spacing
+{
+	height : 25px;
+	border : none;
+}
+
+/* Logo Allociné */
+.logo
+{
+	max-height: 20px;
+}
+
+/* Element validé */
+.requestValid1
+{
+	background-color:green;
+}
+
+/* Element non-validé */
+.requestValid0
+{
+	background-color:red;
+}
+
+/* Lien pour validation d'un élément */
+.validBtn
+{
+	border: none;
+}
+
+/*
+ *------------------------------
+ * Page admin
+ *------------------------------
+ */
+.requestTitle
+{
+	
+}

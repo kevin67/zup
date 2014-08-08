@@ -1,0 +1,98 @@
+/* Liste */
+.itemList
+{
+	
+}
+
+/* Element de la liste */
+.itemListUnit
+{
+	display:block;
+	height:215px;
+	
+	margin-bottom:25px;
+	border:solid black 1px;
+}
+
+/* Zone image */
+.itemListUnitPosterZone
+{
+	display:inline-block;
+	vertical-align:top;
+	
+	width:160px;
+	height:215px;
+}
+
+/* Zone de données */
+.itemListUnitData
+{
+	display:inline-block;
+	vertical-align:top;
+	
+	width:620px;
+	height:195px;
+	
+	padding:10px;
+}
+
+/* Zone bouton */
+.itemListUnitButton
+{
+	display:inline-block;
+	vertical-align:middle;
+	
+	width:90px;
+	height:215px;
+	text-align:center;
+		
+	border-left: solid black 2px;
+}
+
+/* Image */
+.itemListUnitPicture
+{
+	text-align:center;
+	vertical-align:middle;
+	
+	max-width:160px;
+	max-height:215px;
+}
+
+/* Titre */
+.itemListUnitTitle
+{
+	font-weight:bold;
+}
+
+.itemListUnitTitle a
+{
+	text-decoration:none;
+	color:black;
+}
+
+/* Film : Réalisateur */
+.filmListReal
+{
+	
+}
+
+/* Film : Casting */
+.filmListCast
+{
+	
+}
+
+/* Film : Lien allociné */
+.filmListLink
+{
+	
+}
+
+/* Bouton requete */
+.itemListUnitButton a
+{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
